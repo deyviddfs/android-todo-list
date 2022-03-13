@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="button_delete">Botão excluir</string>
+    <string name="item">Item</string>
+    <string name="type">Tipo</string>
+    <string name="button_new">Novo</string>
+    <string name="new_item">Novo Item</string>
+    <string name="save">Salvar</string>
+    <string name="input_item">Insira o item</string>
+    <string name="empty_list">Sua lista está vazia</string>
+</resources>
