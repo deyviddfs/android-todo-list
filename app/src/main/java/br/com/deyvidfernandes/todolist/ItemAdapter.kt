@@ -10,8 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import br.com.deyvidfernandes.todolist.MainActivity.Companion.itens
 import br.com.deyvidfernandes.todolist.MainActivity.Companion.adapter
 
-class ItemAdapter (private val dataSet: List<Item>): RecyclerView.Adapter<ItemAdapter.ViewHolder>(),
-    View.OnClickListener {
+class ItemAdapter (private val dataSet: List<Item>): RecyclerView.Adapter<ItemAdapter.ViewHolder>(){
 
     class ViewHolder(view: View): RecyclerView.ViewHolder(view){
         val imageButtonDelete: ImageButton
@@ -50,9 +49,4 @@ class ItemAdapter (private val dataSet: List<Item>): RecyclerView.Adapter<ItemAd
     override fun getItemCount(): Int {
         return dataSet.size
     }
-
-    override fun onClick(p0: View?) {
-        TODO("Not yet implemented")
-    }
-
 }
